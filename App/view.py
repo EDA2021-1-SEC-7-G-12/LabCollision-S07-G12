@@ -144,7 +144,7 @@ while True:
         print("Inicializando Catálogo ....")
         cont = controller.initCatalog()
 
-    elif int(inputs[0]) == 2:
+    elif int(inputs[0]) ==2:
         # TODO: modificaciones para observar el tiempo y memoria
         print("Cargando información de los archivos ....")
         answer = controller.loadData(cont)
